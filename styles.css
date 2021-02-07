@@ -1,0 +1,36 @@
+.navbar-brand img{
+    height: 60px;
+}
+
+.navbar{
+    background: #f5f6f6;
+}
+
+.navbar ul li{
+    margin-left:50px;
+}
+
+.input-group .btn{
+    background: tomato;
+    color: white;
+}
+
+.input-group .btn:hover{
+    background: #ff4524;
+}
+
+#selected-item, #not-found{
+    display: none;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+#selected-item-img{
+    height: 350px;;
+}
+
+#ingredients{
+    text-align: left !important;
+}
