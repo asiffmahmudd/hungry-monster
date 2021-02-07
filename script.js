@@ -19,7 +19,6 @@ function clickedItem(data){
 }
 
 function showClickedItem(data){
-    console.log(data);
     let ingredientList = document.getElementById('ingredients');
     ingredientList.innerHTML = '';
     document.getElementById('selected-item-img').src = data['meals'][0].strMealThumb;
