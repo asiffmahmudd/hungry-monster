@@ -25,7 +25,7 @@ function showClickedItem(data){
     document.getElementById('selected-item-img').src = data['meals'][0].strMealThumb;
     for(let i = 1; i <= 20; i++){
         ingredient = data['meals'][0]['strIngredient'+i];
-        if(ingredient == ""){
+        if(ingredient == "" || ingredient == null){
             break;
         }
         else{

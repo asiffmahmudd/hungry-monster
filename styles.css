@@ -34,3 +34,7 @@
 #ingredients{
     text-align: left !important;
 }
+
+#ingredients li{
+    text-transform: capitalize;
+}
