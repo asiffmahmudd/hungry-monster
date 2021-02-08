@@ -1,3 +1,7 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
 .navbar-brand img{
     height: 60px;
 }
@@ -37,4 +41,14 @@
 
 #ingredients li{
     text-transform: capitalize;
+    list-style: none;
+}
+
+#ingredients li:before{
+    content: '☑ ';
+    margin-right: 10px;
+    margin-bottom: 20px !important;
+    color: tomato;
+    height: auto;
+    width: auto;
 }
